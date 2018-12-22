@@ -1,12 +1,14 @@
+// abstract
 @import "abstracts/functions";
 @import "abstracts/mixins";
-@import "abstracts/variables";
+@import "abstracts/variables"; // base
 @import "base/base";
 @import "base/animation";
 @import "base/typography";
 @import "base/utilities";
 @import "base/base";
-@import "base/typography";
-@import "pages/home";
-@import "components/buttons";
+@import "base/typography"; // pages
+@import "pages/home"; // components
+@import "components/buttons"; // layout
 @import "layout/header";
+@import "layout/grid";
