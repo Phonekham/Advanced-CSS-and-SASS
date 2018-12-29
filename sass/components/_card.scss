@@ -145,7 +145,8 @@
     text-align: center;
     margin-bottom: 8rem;
   }
-  @include respond(tab-port) {
+  // @include respond(tab-port) {
+  @media only screen and(max-width: 56.25rem), only screen and(hover:none) {
     height: auto;
     border-radius: 3px;
     background-color: $color-white;

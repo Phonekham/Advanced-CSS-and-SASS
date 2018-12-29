@@ -496,6 +496,10 @@ body {
     body {
       padding: 0; } }
 
+::selection {
+  background-color: #55c57a;
+  color: #fff; }
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -947,7 +951,7 @@ body {
   .card__price-box {
     text-align: center;
     margin-bottom: 8rem; }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 56.25rem), only screen and (hover: none) {
     .card {
       height: auto;
       border-radius: 3px;
