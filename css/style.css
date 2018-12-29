@@ -1,4 +1,18 @@
 /*
+0-600:  Phone
+600 - 900px  Tablet
+900 - 1200 Tablet Lanscape
+[1200 - 1800] is where our normal styles apply
+1800+ Big Destop
+
+breakpoint agument choices
+- Phone
+- tab-port
+- tab-land
+- big destop
+1em = 16px
+*/
+/*
 COLORS:
 
 Light green: #7ed56f
@@ -15,6 +29,18 @@ Dark green: #28b485
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 30%; } }
+  @media (max-width: 900px) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 1200px) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 1800px) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
@@ -128,6 +154,18 @@ body {
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 30%; } }
+  @media (max-width: 900px) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 1200px) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 1800px) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
